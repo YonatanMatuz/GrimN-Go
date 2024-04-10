@@ -1,0 +1,65 @@
+html, body, #root {
+  margin: 0;
+  height: 100%;
+  text-align: center;
+  font-size: x-large;
+  background-color: #d0cece76;
+  color: rgb(25, 24, 24);
+  overflow-y: hidden;
+  font-family: 'HansKendrick-Regular', sans-serif;
+}
+
+a {
+  color: black;
+}
+
+@font-face {
+  font-family: 'HansKendrick-Regular';
+  src: url('./Assets/Fonts/HansKendrick-Regular.otf') format('opentype');
+}
+
+
+/* Container holding admin selected image + button for submitting the image */
+.imageContainer {
+  display: flex;
+  align-items: center;
+}
+
+.selectedImage {
+  margin-left: auto;
+  margin-right: 20px;
+}
+.selectedImage img {
+  width: 100px;
+  height: 100px;
+}
+
+.imageBackgroundEffect {
+  display: flex;
+  justify-content: center; /* Horizontally center the canvas */
+  align-items: center; /* Vertically center the canvas */
+  background-color: #efeae6;
+  height: 400px;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+/* --------------------------- Cards ------------------------------- */
+
+.generalCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1.5rem 0;
+  padding: 30px;
+}
+
+.cardContent {
+  text-align: center;
+}
+
+
+

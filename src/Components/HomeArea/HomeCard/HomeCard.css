@@ -1,0 +1,21 @@
+.HomeCard .generalCard {
+	margin: 30px auto;
+    margin-bottom: 10vh;
+    background-color: white;
+}
+
+.HomeCard .cardDescription {
+    margin-top: 4vh;
+    text-align: left;
+}
+
+.HomeCard img {
+    width: 70px;
+    height: 65px;
+}
+
+.HomeCard .cardHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

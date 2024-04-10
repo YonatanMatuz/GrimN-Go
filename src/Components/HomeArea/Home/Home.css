@@ -1,0 +1,44 @@
+.Home {
+    overflow: auto;
+}
+
+.Home .headerBox {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    background-image: url('../../../Assets/Images/HeaderBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.Home .headerDescription p {
+    font-size: 1.2rem;
+}
+@media (max-width: 850px) {
+    .Home .headerTitle p {
+        font-size: 2.2rem;
+    }
+}
+
+.Home .headerTitle {
+    background-color: rgba(255,255,255,0.3);
+    width: 90vh;
+    padding: 10px;
+    margin: auto;
+    color: #161349;
+}
+
+.Home .headerDescription {
+    background-color: rgba(255,255,255,0.3);
+    width: 130vh;
+    padding: 10px;
+    margin: auto;
+    color: #1a1746;
+}
+
+
+
+
+
+
