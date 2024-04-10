@@ -12,7 +12,7 @@ function Routing(): JSX.Element {
 
             {/* ----------------- None-User / User Routes --------------------*/}
 
-            <Route path="/Landing" element={<Landing />} />
+            {/* <Route path="/Landing" element={<Landing />} /> */}
             <Route path="/Home" element={<Home />} />
 
             <Route path="/" element={<Navigate to="/Landing" />} />

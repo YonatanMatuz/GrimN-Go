@@ -36,7 +36,7 @@ function HomeCard(props: HomeCardProps): JSX.Element {
             y: {
                 suggestedMax: 10
             }
-        }
+        },
       }
 
     return (
@@ -45,7 +45,7 @@ function HomeCard(props: HomeCardProps): JSX.Element {
 
             {/* Header */}
             <Paper elevation={3}
-            style={{ padding: '10px', textAlign: 'center', margin: 'auto', marginTop: '5vh', backgroundColor: '#efeae6'}}
+            style={{ padding: '10px', textAlign: 'center', margin: 'auto', marginTop: '5vh', backgroundColor: 'rgba(191, 190, 190, 0.8)'}}
             sx={{ width: {xl: '65vh', lg: '55vh', md: '50vh', sm: '30vh', xs: '25vh'}}}>
 
                 <div className="cardHeader">
@@ -94,6 +94,7 @@ function HomeCard(props: HomeCardProps): JSX.Element {
                         <Bar
                             data = {data}
                             options = {options}
+
                         ></Bar>
 
                     </div>

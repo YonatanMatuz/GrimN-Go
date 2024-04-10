@@ -14,7 +14,7 @@ function Footer(): JSX.Element {
                 <Grid item>
 
                     <Typography variant="caption">
-                        NeuroHagana Ltd - Israel
+                        Grimro Ltd - Israel
                     </Typography>
 
                 </Grid>
@@ -22,7 +22,7 @@ function Footer(): JSX.Element {
                 <Grid item>
 
                     <Typography variant="caption">
-                        Contact Us: info@NeuroHagana.com
+                        Check out more at (Grimro twitch and youtube link here)
                     </Typography>
 
                 </Grid>

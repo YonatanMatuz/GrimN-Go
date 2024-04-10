@@ -3,7 +3,8 @@ html, body, #root {
   height: 100%;
   text-align: center;
   font-size: x-large;
-  background-color: #d0cece76;
+  background-image: url(./Assets/Images/ExarchImage.png);
+  background-size: cover;
   color: rgb(25, 24, 24);
   overflow-y: hidden;
   font-family: 'HansKendrick-Regular', sans-serif;

@@ -53,7 +53,7 @@ function Home(): JSX.Element {
             header="Medium Investment"
             currency={ChaosOrb}
             title="Essences"
-            description="We are a groundbreaking biotech company, developing and delivering an immediate injectable treatment for neurotrauma, irrespective of its type or severity."
+            description="This strategy focuses on getting as many corpses, allflames, and maps as possible, this strategy feeds into other more popular strategies providing what they need, as such it will only become more profitable as time goes on, the key components are 8 mod jungle valleys, and domination scarabs. "
 
             />
 
@@ -61,7 +61,7 @@ function Home(): JSX.Element {
             header="Low Investment"
             currency={AlchemyOrb}
             title="Harvest + Expedition"
-            description="The efficacy of the new treatment for the first pathology: Spinal Cord Injury, has been tested in three clinically relevant models in mice at Tel Aviv University with strong therapeutic efficacy  without side effects."
+            description="This strategy focuses on getting as many corpses, allflames, and maps as possible, this strategy feeds into other more popular strategies providing what they need, as such it will only become more profitable as time goes on, the key components are 8 mod jungle valleys, and domination scarabs. "
 
             />
 

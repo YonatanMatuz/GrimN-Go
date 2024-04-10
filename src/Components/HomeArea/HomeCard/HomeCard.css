@@ -1,12 +1,12 @@
 .HomeCard .generalCard {
 	margin: 30px auto;
     margin-bottom: 10vh;
-    background-color: white;
+    background-color: rgba(191, 190, 190, 0.8);
 }
 
 .HomeCard .cardDescription {
     margin-top: 4vh;
-    text-align: left;
+    text-align: justify;
 }
 
 .HomeCard img {
